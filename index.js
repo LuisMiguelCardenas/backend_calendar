@@ -8,6 +8,7 @@ require( 'dotenv').config();
 
 const app = express();
 
+app.use(cors());
 //Base de datos
 
 dbConection();
